@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .item{
+        display:flex;
+        align-items: center;
+    }
+    .item div input{
+        height: 30px;
+    }
+    .item p{
+        width: 100px;
+    }
+    button{ 
+        font-weight: bold;
+        width: 80px;
+        height: 40px;
+    }
+    .button{
+        padding-top: 30px;
+        
+    }
+</style>
+<body>
+    <div class="comtainer">
+        <h1 class="tieude">BANG DIEM CUA EM</h1>
+        <div class="item">
+            <p>Semester 1:</p>
+            <div><input type="text" id="ki1"></div>
+            
+        </div>
+        <div class="item">
+            <p>Semester 2:</p>
+            <div><input type="text" id="ki2"></div>
+        </div>
+            
+            
+        </div>
+        <div class="item">
+            <p>Year:</p>
+            <div><input type="text" id="namhoc"></div>
+        </div>
+        <div class="item">
+            <p>Summarise:</p>
+            <div><input type="text" id="diemtb"></div>
+        </div>
+        <div class="button">
+            <button onclick="myFunction()">OK</button>
+            <button onclick="myFunction()">Cancel</button>
+        </div>
+        
+    </div>
+    <script src="main.js"> </script>
+</body>
+</html>
